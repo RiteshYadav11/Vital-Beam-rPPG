@@ -27,17 +27,17 @@ This code runs on cuda enabled device at 30 FPS and estimates heartbeat in one s
 * Numpy
 * Pytorch
 * OpenCv
-* Matplotlib, Scipy, Pillow
+* Matplotlib, Scipy,Pillow
 * Git Lfs to track trained model parameters or alternatively download the model from [google drive]( https://drive.google.com/open?id=1shRnrUAF5HyA_vwXJfCcrNVFkltT7U5E)
 
-* We have used deep learning for semantic segmentation of skin and non skin pixels from frames. The segmentation requires cuda enabled device
+* We have used deep learning for semantic segmentation of skin and non skin pixels from frames. The segmentation requires cuda enabled device.
 
 
 Clone this repository.
 
         git clone https://github.com/nasir6/rPPG.git
 
-To run
+To run.
 
         cd rPPG
         python3 run.py --source=0 --frame-rate=25
